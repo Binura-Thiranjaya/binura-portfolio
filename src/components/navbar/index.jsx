@@ -17,22 +17,25 @@ export default function index() {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/">
-                <p class="nav-text">HOME</p>
+              <a class="nav-link li" aria-current="page" href="/">
+                <p class="nav-text text-dark">HOME</p>
               </a>
-              <a class="nav-link" href="/home">
-                <p class="nav-text">ABOUT ME</p>
+              <a class="nav-link li" href="/home">
+                <p class="nav-text text-dark">ABOUT ME</p>
               </a>
-              <a class="nav-link" href="/experience">
-                <p class="nav-text">EXPERIENCE</p>
+              <a class="nav-link li" href="/experience">
+                <p class="nav-text text-dark">EXPERIENCE</p>
               </a>
-              <a class="nav-link" href="/projects">
-                <p class="nav-text">PROJECT</p>
+              <a class="nav-link li" href="/projects">
+                <p class="nav-text text-dark">PROJECT</p>
               </a>
-              <a class="nav-link" href="/contact">
-                <p class="nav-text">CONTACT ME</p>
+              <a class="nav-link li" href="/contact">
+                <p class="nav-text text-dark">CONTACT ME</p>
               </a>
             </div>
           </div>
